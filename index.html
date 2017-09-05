@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<br>
+		<br>
+		<title>House/Techno DJ Sets on YouTube</title>
+		<link rel="stylesheet" href="styles/main.css">
+	</head>
+	<body>
+
+		<!-- FIXED MENU -->
+		<div class="ui top fixed menu">
+		  <div class="item">
+		  	<div>Recommanded House/Techno Music Set for You This Week!</div>
+		    <br>
+		    <br>
+		    <iframe width="1280" height="720" src="https://www.youtube.com/embed/TNr7OszGnVw" frameborder="0" allowfullscreen></iframe>
+		    <br>
+		  </div>
+		  <br>
+		  <br>
+		  <br>
+		  <a class="item">YouTube Search for DJ Sets</a>
+		  <br>
+		  <br>
+		  <div>Type in your favorite DJs, Festival labels, Record labels below</div>
+		  <div>ex) Dekmantel, MixMag, Boiler Room, Sonus Festival... </div>
+		</div>
+		<!-- END FIXED MENU -->
+		<!-- MAIN CONTENT GRID -->
+		<div class="ui two column centered grid">
+			<div class="column">
+
+				<form class="ui fluid action input">
+					<input type="text" placeholder="Search..." class="js-search-input">
+					<button id="search-btn" class="ui primary button js-search">Search</button>
+				</form><!-- ui fluid action input -->
+				<br>
+				<br>
+			</div><!-- column -->
+			<div class="four column centered row js-data">
+				<div id="video_results" class="video">
+				</div>
+			</div><!-- four column centered row -->
+		</div>
+		<!-- END MAIN CONTENT GRID -->
+    <script src="javascript/jquery.js"></script>
+    <script src="javascript/app.js"></script>
+	</body>
+</html>
